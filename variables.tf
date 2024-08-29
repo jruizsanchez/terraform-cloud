@@ -42,3 +42,13 @@ variable "ingress_port_list" {
   description = "list of ingress ports for security group"
   type        = list(number)
 }
+
+variable "access_key" {
+  description = "access key for aws provider"
+  type        = string
+}
+
+variable "secret_key" {
+  description = "secret key for aws provider"
+  type        = string
+}
